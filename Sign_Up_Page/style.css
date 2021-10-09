@@ -1,0 +1,71 @@
+body{
+  color: blue;
+  background-color: gold;
+  padding: 2px;
+}
+
+.card{
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: rgba(255, 0, 0, 0.3) 0px 19px 38px, rgba(255, 0, 0, 0.22) 0px 15px 12px;
+}
+
+h1{
+  text-align: center;
+  text-shadow: 3px 3px 5px red;
+}
+
+#heading{
+  text-align: center;
+}
+
+#city,#lat,#long{
+  color: black;
+  text-shadow:4px 4px 6px  white;
+}
+
+#suggestedpass{
+  color: black;
+  text-shadow:4px 4px 6px  white;
+}
+
+#message{
+  text-align: center;
+}
+
+#submitBtn:hover{
+  box-shadow: rgba(255, 0, 0, 0.3) 0px 19px 38px, rgba(255, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card-body{
+  text-shadow: 3px 3px 5px yellowgreen;
+}
+
+#pass_again_error, #empty_user_name, #pass_error, #username_message {
+  text-shadow:4px 4px 6px  white;
+}
+
+#message{
+  text-shadow: 4px 4px 6px #198754;
+}
+
+#last_name, #first_name{
+  margin-left: 27px;
+}
+
+#email{
+  margin-left: 66px;
+}
+
+#zip{
+  margin-left: 38px;
+}
+
+#pass{
+  margin-left: 66px;
+}
+
+#pass_again{
+  margin-left: 6px;
+}
+

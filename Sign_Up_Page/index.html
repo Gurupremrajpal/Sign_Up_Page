@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Sign Up Page </title>
+
+<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+<!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+</head>
+<body>
+
+ <h1> Sign Up Form </h1>
+
+ <div class="card" style="width: 24rem;">
+   <div class="card-body">
+      <legend id="heading"> Sign Up</legend>
+      First Name: <input type="text" id="first_name"><br> 
+      Last Name: <input type="text" id="last_name"><br> 
+      Email:     <input type="text" id="email"><br> 
+      Phone Number:<input type="text"><br><br>
+
+      Zip Code: <input id="zip" type="text"><br>
+
+      City: <span id="city"> </span> 
+      <br>
+      Latitude: <span id="lat"> </span>
+      <br>
+      Longitude:  <span id="long"></span> <br>
+      <div id="zip_message" class="bg-danger text-light"> </div>
+      <br><br>
+
+      State: <select id="state">
+          <option >Select:</option>
+        </select> <br>
+
+      Select a County: <select id="county"></select><br> <br>
+
+      Desired Username: <input id="user"type="text"> <span id="username_message"> </span> <div id="empty_user_name" class="text-danger"> </div><br>
+
+      Password: <input id="pass"type="password"><span id="suggestedpass"> </span>
+      <div id="pass_error" class="text-danger"></div><br> 
+
+      Reenter Password: <input id="pass_again" type="password">
+      <div id="pass_again_error" class="text-danger"> </div><br>
+
+      <input id=
+      "submitBtn" type="button" class="btn btn-primary" value="Sign up!">
+      <br> <br>
+      <div id="message" class="bg-success text-light"> </div>
+    </div> 
+ </div>
+
+
+  <script src="script.js">
+  </script>
+
+</body>
+</html>
